@@ -35,9 +35,9 @@ ment, placement of input files, any input parameters, etc.
 
 Correctness  of this project is based on: 
 • [Queries] 
-•	–  Correctness: 50 marks. 
+•	–  Correctness: 
 o	∗  [Sequential-Scan Based Method]: If it correctly answers m (out of 100) queries by reading the entire dataset sequentially. 
-o	∗  [R-Tree Based Method (40 marks)]: If it correctly answers m (out of 100) queries by searching the R-Tree.
+o	∗  [R-Tree Based Method]: If it correctly answers m (out of 100) queries by searching the R-Tree.
 •	–  Efficiency: Is the average query time is at least 5 times or 2 times faster than sequential scan. 
 • [The Report] 
 o	–  Function Description: A clear description of all the functions in my source code. 
