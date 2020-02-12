@@ -1,13 +1,13 @@
 # R-Tree-using-Python3
 Implementing R-Tree using standard libraries of python programming language &amp; analysing the working of R-Tree.
 
-
 The objective of this project is to implement the R-tree. The rest of the document explains the details of this project: 
 
 [Dataset]: You will be given a dataset which contains 2D points. The dataset will be provided 
 in a text file as the following format: 
 n
-id 1 x 1 y 1 id 2 x 2 y 2 ...
+id 1 x 1 y 1 
+id 2 x 2 y 2 ...
 id n x n y n 
 Specifically, the first line gives the number of points in the dataset. Then, every subsequent line gives a point’s id, x-, and y-coordinates. Your program should build an R-tree in memory from the dataset. 
 [Range Query]: You will be given a set of 100 range queries in a text file whose format is: 
