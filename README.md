@@ -3,7 +3,7 @@ Implementing R-Tree using standard libraries of python programming language &amp
 
 The objective of this project is to implement the R-tree. The rest of the document explains the details of this project: 
 
-[Dataset]: You will be given a dataset which contains 2D points. The dataset will be provided 
+[Dataset]: You will be given a dataset that contains 2D points. The dataset will be provided 
 in a text file as the following format: 
 n
 id 1 x 1 y 1 
@@ -25,23 +25,21 @@ Directing output to a disk file:
 [Programming Language]: Python using the existing libraries provided in the programming language of your choice (i.e., some standard libraries or the libraries for R-Tree). 
 
 [Deliverables]: It includes the following components: 
-1.	Source Code: The code you have developed yourself. Make sure your code can be run in 
-the standard general programming environment. 
+1.	Source Code: The code you have developed yourself. Make sure your code can be run in the standard general programming environment. 
 2.	Report: Your report should include the following: 
 •	A brief description of the main functions in your source code; 
-•	A clear specification of the requirements for executing your code such as, OS environ- 
-ment, placement of input files, any input parameters, etc. 
+•	A clear specification of the requirements for executing your code such as OS environment, placement of input files, any input parameters, etc. 
 
 
-Correctness  of this project is based on: 
+The correctness of this project is based on: 
 • [Queries] 
 •	–  Correctness: 
 o	∗  [Sequential-Scan Based Method]: If it correctly answers m (out of 100) queries by reading the entire dataset sequentially. 
 o	∗  [R-Tree Based Method]: If it correctly answers m (out of 100) queries by searching the R-Tree.
-•	–  Efficiency: Is the average query time is at least 5 times or 2 times faster than sequential scan. 
+•	–  Efficiency: Is the average query time is at least 5 times or 2 times faster than the sequential scan. 
 • [The Report] 
 o	–  Function Description: A clear description of all the functions in my source code. 
 o	–  Requirement Description: A clear description of the requirements for executing my code such as, OS environment, placement of input files, any input parameters, etc.
 • [Bonus] 
 o	–  Implementing the R-Tree by Using Standard Libraries provided by the python rather than using the existing R-Tree libraries. 
-o	–  Analysing the Working of R-Tree: In addition to coding, I have provided a high-quality report that contains a detailed analysis of the working of R-Tree. Selecting 10 data points from the given dataset, and one query from the given queries. Then, clearly and correctly analysed the process of the R-Tree construction and the query process (the search should traverse several nodes of the tree, and during the construction of the R-Tree, there should be an overflow and a node splitting).
+o	–  Analysing the Working of R-Tree: In addition to coding, I have provided a high-quality report that contains a detailed analysis of the working of R-Tree. Selecting 10 data points from the given dataset, and one query from the given queries. Then, clearly and correctly analyzed the process of the R-Tree construction and the query process (the search should traverse several nodes of the tree, and during the construction of the R-Tree, there should be an overflow and a node splitting).
